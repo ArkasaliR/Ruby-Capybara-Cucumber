@@ -1,0 +1,53 @@
+en:
+  call_codes:
+    BBD: National Blackberry
+    BBR: Roaming Blackberry
+    DO: Roaming Data
+    DOV: Roaming Data
+    FCM: Fixed Mobile
+    FDU: Fixed Data
+    FLC: Fixed to Local Fixed
+    FNC: Fixed National
+    FNG: Fixed Non-Geographic
+    IC: Intercompany
+    IN: International Voice
+    INT: International Voice
+    IP: International Group
+    LIV: Vodafone Live!
+    MC: Premium Message
+    MG: Globalstar Call
+    MO: Roaming Voice
+    MOV: Roaming Voice
+    NA: National Non Mobile
+    NAT: National Call
+    NR: National Roaming
+    OS: Operator
+    PKT: National Data
+    PN: Group Calling
+    Power Up: Power Up
+    Premium TXT: Premium TXT
+    PXO: Roaming PXT
+    PXT: Picture Message
+    RDF: Roaming Daily Fees
+    RG: Globalstar Incoming
+    RO: Received Call-Roam
+    Standard TXT: Text Message
+    TPA: Third Party Applications
+    TPP: Third Party Purchase
+    TXO: Roaming Text
+    TXT: Text Message
+    V23: 3 Mobile
+    V2O: Other Mobile
+    V2V: Vodafone Mobile
+    VCO: Other Video
+    VCV: Vodafone Video
+    VF : Vodafone Purchase
+    VFC: Vodafone Central
+    Video : Video Call
+    VIN: International Video
+    VO: Roaming Video
+    Voice: Voice call
+    VOV: Roaming Video
+    VRO: Received Video-Roam
+    VS: Vodafone Service
+    VVN: Group Video

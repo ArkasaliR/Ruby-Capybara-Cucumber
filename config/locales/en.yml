@@ -1,0 +1,2037 @@
+en:
+  version:
+    git: Git hash
+    build: Build number
+  paypal_errors:
+    generic_try_again:
+      header: Something didn't go as planned.
+      message: We're currently experiencing a technical issue. Please try again, or use another payment method.
+    tech_difficulties_try_again:
+      header: Unable to recharge online.
+      message: Sorry, we're currently experiencing technical issues and are unable to recharge your account here. Please try again soon or recharge over the phone by calling 1511.
+      call_link_message: Call 1511
+      call_link: tel:1511
+    recharge_option_unavailable:
+      header: Your selected recharge is unavailable.
+      message: Sorry, the recharge you've selected is no longer available. Please select another recharge option.
+    call_us:
+      header: Give us a call.
+      message: Your account needs some attention. Please call us on <strong>1555</strong> from your Vodafone mobile or <strong>1300 650 410</strong> from other phones.
+      call_link_message: Call 1555
+      call_link: tel:1555
+    paypal_issue:
+      header: Something didn’t go as planned.
+      message: A technical mishap has prevented this PayPal payment from going through. Please try again, or use another payment method.
+    paypal_rejection:
+      header: PayPal not accepted.
+      message: Unfortunately PayPal has declined this transaction. Please try another payment method or <a href='https://www.paypal.com/au/webapps/helpcenter/helphub/home/'>contact PayPal</a> for details.
+  recharge:
+    cc_or_paypal: Use a credit card or PayPal
+    new_logged_in: Recharge
+    first_recharge_html: "Get up to <strong>500MB</strong> bonus data every time you recharge your Cap online with a credit card or PayPal."
+    first_recharge_mbb_html: "When you save your card details, you'll be able to recharge faster in future."
+    back_button: Cancel
+    submit_by_voucher: voucher_recharge
+  select_recharge:
+    title: Select your recharge
+    included_value: Flexible credit
+    included_data: Data within Australia
+    fetch_plans:
+      title: Fetching
+      message: Wheels are turning
+    terms_and_conditions:
+      link: Terms and conditions
+      title: Terms and conditions
+      back_link: Back
+    error:
+      title: "Something didn't go to plan"
+      message: "It looks like we just had a technical mishap. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+      back_link: "Try again"
+    cis:
+      title: Critical information summary
+      modal:
+        body_text: This page will open in a new window.
+        button_yes: Continue
+        button_no: Cancel
+    submit_selected_recharge: Continue
+    back_button: Cancel
+  express_recharge:
+    title:
+      logged_in: Recharge
+      logged_out: Express Recharge
+      voucher_recharge: Recharge with a voucher
+      select_recharge: Select your recharge
+    quick_links:
+      title: Quick links
+      register_credit_card: Register or Manage Credit Card
+      recharge_history: Recharge History
+    voucher:
+      pin: "Enter your voucher PIN"
+      timeout:
+        title: "Voucher can't be validated"
+        message: "A timeout glitch has prevented us from validating."
+      recharge_error:
+        timeout:
+          title: "Voucher can't be recharged"
+          message: "A timeout glitch has prevented us from recharging."
+        technical:
+          title: "Voucher can't be recharged"
+          message: "It looks like we just had a technical mishap. Your Voucher payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+      error:
+        voucher_pin:
+          empty: "Voucher pin can't be blank"
+          invalid: Invalid last four digits
+      submit_validate: Continue
+      cancel_validate: Cancel
+      submit_recharge: Next
+      success:
+        text: "has now been recharged with $"
+      voucher_error:
+        global_nok_limit_reached:
+          title: Invalid voucher details
+          message: "Your account has been blocked as the voucher PIN has been entered incorrectly too many times.  For help, call 1555 free from your Vodafone mobile or 1300 650 410 from another phone (standard call rates apply)."
+        pin_must_be_12_digits:
+          title: Invalid Pin
+          message: "The pin must be 12 digits. Give it another go but keep in mind that three unsuccessful attempts will result in a blocked voucher."
+        recharge_card_not_found:
+          title: Recharge card not found
+          message: "Sorry, we can’t find that voucher. Please check your voucher pin and try again."
+        topup_profile_not_found:
+          title: Topup Profile not found
+          message: "The topup profile can not be found. Give it another go but keep in mind that three unsuccessful attempts will result in a blocked voucher."
+        account_not_found:
+          title: Account not found
+          message: "The Account can not be found. Give it another go but keep in mind that three unsuccessful attempts will result in a blocked voucher."
+        invalid_msisdn:
+          title: Invalid number
+          message: "We can't validate as the mobile number you've entered is invalid. Give it another go, or call us on 1555 from your Vodafone mobile or 1300 650 410 if you continue to see this message."
+        voucher_used:
+          title: Voucher state is used.
+          message: "This voucher has already been used. Please try again with another voucher."
+        invalid_rcos:
+          title: Invalid RCOS.
+          message: "This Voucher cannot be used."
+        voucher_cancelled:
+          title: Voucher state is cancelled.
+          message: "This voucher has been cancelled and cannot be used. For help, call 1555 free from your Vodafone mobile or 1300 650 410 from another phone (standard call rates apply)."
+        voucher_expired:
+          title: Voucher is expired.
+          message: "This voucher has expired. Please try another voucher. For help, call 1555 free from your Vodafone mobile or 1300 650 410 from another phone (standard call rates apply)."
+        voucher_stolen:
+          title: Voucher is stolen.
+          message: "This voucher has been reported stolen. For help, call 1555 free from your Vodafone mobile or 1300 650 410 from another phone (standard call rates apply)."
+        hourly_limit_reached:
+          title: Hourly Limit Reached
+          message: "Your account has been locked for the next hour as the voucher PIN has been entered incorrectly too many time.  Please try again later. For help, call 1555 free from your Vodafone mobile or 1300 650 410 from another phone (standard call rates apply)."
+        price_point_retired:
+          title: Price Point Retired
+          message: "This offer is no longer available. For help, call 1555 free from your Vodafone mobile or 1300 650 410 from another phone (standard call rates apply)."
+      bonus_text: "Get up to 500MB bonus data every time you recharge your Cap online with a credit card, PayPal or recharge by TXT."
+    paypal_payment:
+      paypal_payment_error:
+        error_title: "Something didn't go to plan"
+    recharge:
+      page_title: Recharge
+      timeout_warning: Your session is about to time out
+      timeout_continue: Continue
+      new:
+        error:
+          invalid: Please enter a valid prepaid number
+          missing: "We've just had a technical mishap with your account. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          security_title: "Something didn't go as planned"
+          security: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          payment_title: "Something didn't go as planned"
+          payment: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          token_title: Unable to display info
+          token: "For your protection, we're unable to display your information once the Refresh or Back buttons are hit. This hasn't affected your recharge."
+          expired: Your session has expired
+          account_not_active: Service inactive. Call 1300 650 410 for info.
+          account_not_found: Please enter a valid prepaid number
+          fraud_heading: "Fraud detected"
+          fraud: There's something fishy going on here. Your service has been locked from further recharges. Please call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones.
+          fraud_internal: "We've just had a technical mishap with your account. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          internal_title: "Something didn't go as planned"
+          internal: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+        number: Recharge this number
+        next: Next
+        credit_card_paypal: Use a credit card or PayPal
+        checking: Checking your number...
+        loading: "Please don't leave this page"
+        disabled: Recharge is unavailable
+        bonus_text: "Get up to 500MB bonus data every time you recharge your Cap online with a credit card, PayPal or recharge by TXT."
+      create:
+        use_voucher: Use a voucher
+      last:
+        page_title: Recharge now
+        last_recharge_title: You last recharged
+        primary_button_text: Same again
+        secondary_button_text: Choose something else
+        link_to_voucher_title: Use a voucher
+        link_to_voucher_button_text: Redeem now
+        link_to_addons_title: Need a quick boost?
+        link_to_addons_button_text: Buy an add-on
+        recharged_on: Recharged
+        yesterday: yesterday
+        today: today
+        category_label_addons: "Add-ons & Extras"
+        category_label_main_recharge: "Main Recharge"
+        offer_is_closed_message: "Your last recharge option is no longer available. Please choose another recharge type."
+      payment_methods:
+        payment_method_question: How would you like to pay?
+        pay_with_paypal:
+          preamble: You'll be temporarily taken to the PayPal website.
+          submit: Recharge with PayPal
+      recharge:
+        recharging:
+          desktop: "You're recharging"
+          mobile: "Recharging - "
+        last: Previously recharged on
+        logged_in_last: Your last recharge
+        no_last: "No previous recharge, please select an offer and amount"
+        recharge_option_select: Recharge option
+        recharge_amount_select: Recharge amount
+        select_recharge: Select your recharge
+        select_recharge_amount: Select amount
+        recharge_general_error: "The credit card details you entered are incorrect. Please double check them and try again."
+        critical_information_summary: Critical information summary
+        critical_information_summary_url: http://www.vodafone.com.au/personal/criticalinformationsummary?planCategory=Prepaid
+        recharge_options: View prepaid recharge options
+        recharge_options_url: http://www.vodafone.com.au/personal/prepaid/home/options
+        change: Change
+        choose_other_recharge: Choose another recharge
+        card:
+          detail: Enter card details
+          name: Name on card
+          number: Card No.
+          ccv: CCV
+          saved: Pay with saved credit card
+          last4: Card No.
+          expiry: Expiry
+          expiry_placeholder: MM/YY
+          submit: Recharge now
+          types:
+            select: Select card type
+            visa: Visa
+            mastercard: MasterCard
+            amex: American Express
+      authenticated:
+        use_cc: Recharge now
+        use_voucher: Redeem now
+      help_and_support:
+        title: Prepaid recharge options
+        text: Learn about our range of prepaid recharge options and starter packs.
+        link_text_voice: Find out about Prepaid recharges
+        link_text_data: Find out about Data Add-ons
+        link_text_mbb: Find out about Mobile Broadband
+      new_card:
+        card:
+          detail: Enter card details
+          name: Name on card
+          number: Card No.
+          ccv: CCV
+          expiry: Expiry date
+          expiry_placeholder: MM/YY
+          submit: Recharge now
+          terms_and_conditions: terms and conditions.
+          terms_and_conditions_back: Back
+          agree_to_terms_and_conditions: I am the owner of the nominated credit card and I authorise Vodafone to withdraw money from this account and read and agree to the
+          error:
+            paycorp:
+              internal_title: "Something didn't go as planned"
+              internal: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones. (Error code %{error_code})"
+              generic_title: "Something didn't go as planned"
+              generic: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones. (Error code %{error_code})"
+          note_for_expired_card:
+            title: Expired card
+            text: "Looks like your credit card has expired. Sign in to MyVodafone then select 'Manage credit card' in the 'Manage your account' section to update your credit card details. "
+            link: ">My Vodafone"
+            logged_in_user_text: "Looks like your credit card has expired. Update your credit card details by selecting 'Manage credit card' in the 'Manage your account' section."
+            link_logged_in_user: ">Update card details"
+      registered_card:
+        card:
+          detail: Enter card details
+          saved: Pay with saved card
+          confirm: Confirm the last four digits and expiry date
+          last4: Card No.
+          expiry: Expiry date
+          submit: Recharge now
+          change: Use new card
+      payment_details: "Review & pay"
+      add_on_title: Add-on
+    payment:
+      process_payment:
+        title: Processing Payment...
+        processing: Processing payment
+        message: "Please don't leave this page"
+      recharge_account:
+        error:
+          back_to_my_usage: Back to my usage
+          try_again: Try again
+          cc_payment_declined_title: Declined payment
+          cc_payment_declined: "Nobody likes rejection, including this payment. We don't know why this payment was declined. Please get in touch with your card provider, otherwise try another card."
+          cc_payment_declined_link: ""
+          cc_payment_declined_url: ""
+          cc_fraud_title: Declined payment
+          cc_fraud: "We've just been advised that this card number has been associated with fraudulent activity. If this is genuinely your card, please contact your card provider. If it isn't, then shame on you."
+          cc_fraud_link: ""
+          cc_fraud_url: ""
+          no_receipt_title: "Something didn't go as planned"
+          no_receipt: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          no_receipt_link: ""
+          no_receipt_url: ""
+          cc_blocked_title: Blocked card
+          cc_blocked: "This card has been blocked, so we can't accept it. Try another card or call us to complete this payment by dialling 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          cc_blocked_link: ""
+          cc_blocked_url: ""
+          cc_duplicate_payment_title: Duplicate recharge
+          cc_duplicate_payment: "You've just recharged a moment ago. If you really want to do another recharge, you'll need to wait a few minutes before trying again."
+          cc_duplicate_payment_link: ""
+          cc_duplicate_payment_url: ""
+          cc_invalid_number_title: Invalid card number
+          cc_invalid_number: "It was most likely a minor typo. Give it another go but keep in mind that three unsuccessful attempts will result in a blocked card. If you're sure your details are correct call your card provider, otherwise try another card."
+          cc_invalid_number_link: ""
+          cc_invalid_number_url: ""
+          cc_invalid_ccv_title: Invalid CCV
+          cc_invalid_ccv: "It was most likely a minor typo. Give it another go but keep in mind that three unsuccessful attempts will result in a blocked card. If you're sure your details are correct call your card provider, otherwise try another card."
+          cc_invalid_ccv_link: ""
+          cc_invalid_ccv_url: ""
+          cc_invalid_expiry_date_title: Invalid card expiry
+          cc_invalid_expiry_date: "It was most likely a minor typo. Give it another go but keep in mind that three unsuccessful attempts will result in a blocked card. If you're sure your details are correct call your card provider, otherwise try another card."
+          cc_invalid_expiry_date_link: ""
+          cc_invalid_expiry_date_url: ""
+          daily_limit_reached_title: Service temporarily suspended
+          daily_limit_reached: "Your service has been temporarily suspended from further recharges. Please call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones for more information."
+          daily_limit_reached_link: ""
+          daily_limit_reached_url: ""
+          monthly_limit_reached_title: Service temporarily suspended
+          monthly_limit_reached: "Your service has been temporarily suspended from further recharges. Please call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones for more information."
+          monthly_limit_reached_link: ""
+          monthly_limit_reached_url: ""
+          account_limit_reached_title: Service temporarily suspended
+          account_limit_reached: "Your service has been temporarily suspended from further recharges. Please call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones for more information."
+          account_limit_reached_link: ""
+          account_limit_reached_url: ""
+          fraud_limit_reached_title: Service temporarily suspended
+          fraud_limit_reached: "Your service has been temporarily suspended from further recharges. Please call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones for more information."
+          fraud_limit_reached_url: ""
+          fraud_limit_reached_link: ""
+          account_invalid_plan_title: Recharge option unavailable
+          account_invalid_plan: "The recharge option you've selected is no longer available. Please try another option or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          account_invalid_plan_link: ""
+          account_invalid_plan_url: ""
+          bundle_balance_threshold_reached_title: Service temporarily suspended
+          bundle_balance_threshold_reached: "Your service has been temporarily suspended from further recharges. Please call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones for more information."
+          bundle_balance_threshold_reached_link: ""
+          bundle_balance_threshold_reached_url: ""
+          balance_threshold_reached_title: Service temporarily suspended
+          balance_threshold_reached: "Your service has been temporarily suspended from further recharges. Please call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones for more information."
+          balance_threshold_reached_url: ""
+          balance_threshold_reached_link: ""
+          main_balance_threshold_reached_title: Service temporarily suspended
+          main_balance_threshold_reached: "Your service has been temporarily suspended from further recharges. Please call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones for more information."
+          main_balance_threshold_reached_url: ""
+          main_balance_threshold_reached_link: ""
+          partial_success_title: "Call us"
+          partial_success: "Your payment has been accepted, but we've had a technical glitch in updating your balance. Please call us ASAP on 1555 from your Vodafone mobile or 1300 650 410 from other phones so we can sort this out for you."
+          partial_success_link: ""
+          partial_success_url: ""
+          validation_fault_title: Something didn't go as planned
+          validation_fault: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          validation_fault_url: ""
+          validation_fault_link: ""
+          generic_business_fault_title: "Something didn't go as planned"
+          generic_business_fault: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          generic_business_fault_url: ""
+          generic_business_fault_link: ""
+          payment_fault_title: "Something didn't go as planned"
+          payment_fault: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          payment_fault_link: ""
+          payment_fault_url: ""
+          recharge_account_fault_title: "Something didn't go as planned"
+          recharge_account_fault: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          recharge_account_fault_link: ""
+          recharge_account_fault_url: ""
+          internal_system_fault_title: "Something didn't go as planned"
+          internal_system_fault: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          internal_system_fault_link: ""
+          internal_system_fault_url: ""
+          provider_connection_fault_title: "Something didn't go as planned"
+          provider_connection_fault: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          provider_connection_fault_link: ""
+          provider_connection_fault_url: ""
+          binding_error_fault_title: "Something didn't go as planned"
+          binding_error_fault: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          binding_error_fault_link: ""
+          binding_error_fault_url: ""
+          provider_system_fault_title: "Something didn't go as planned"
+          provider_system_fault: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          provider_system_fault_link: ""
+          provider_system_fault_url: ""
+          timeout_fault_title: "Something didn't go as planned"
+          timeout_fault: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          timeout_fault_link: ""
+          timeout_fault_url: ""
+          generic_system_fault_title: "Something didn't go as planned"
+          generic_system_fault: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+          generic_system_fault_link: ""
+          generic_system_fault_url: ""
+          card_error_redirect_title: Recharge error
+          card_error_redirect: "The credit card details you entered are incorrect. Please double check them and we’ll take you back to the payment form to try again."
+          card_error_redirect_link: ""
+          card_error_redirect_url: ""
+          m1_fault_title: "Something didn't go as planned"
+          m1_fault: We're having trouble confirming your details. Please try again, or use another payment method.
+          m1_fault_link: Help me recharge
+          m1_fault_url: http://vfau.co/support-recharge
+          m2_fault_title: "Your card details don't match"
+          m2_fault: The credit card number you entered doesn't quite match your saved card details. Please try again.
+          m2_fault_link: "Manage credit card"
+          m2_fault_url: "%{manage_credit_card_url}"
+          m3_fault_title: "There's an issue with your recharge"
+          m3_fault: It looks like your recharge may not have worked. Please check your balance. If your new credit hasn't been applied, call us on 1555 from your Vodafone mobile and we'll sort this out for you.
+          m3_fault_link: ""
+          m3_fault_url: ""
+          m4_fault_title: "Your payment has not gone through"
+          m4_fault: Unfortunately, your financial provider has declined your payment. Please try another card or choose another payment option.
+          m4_fault_link: "Help me recharge"
+          m4_fault_url: "http://vfau.co/support-recharge"
+          m5a_fault_title: "There's a small problem"
+          m5a_fault: It looks like your account needs some attention before you can recharge. Please call us on 1555 from your Vodafone mobile.
+          m5a_fault_link: ""
+          m5a_fault_url: ""
+          m5b_fault_title: "There's an issue with your account"
+          m5b_fault: It looks like your account needs some attention before you can recharge. Please call us on 1555 from your Vodafone mobile.
+          m5b_fault_link: ""
+          m5b_fault_url: ""
+          m6_fault_title: "You've already recharged"
+          m6_fault: It looks like you've tried to make duplicate recharges, so we haven't processed your second recharge. If you want to do another recharge, just wait a few minutes and try again.
+          m6_fault_link: "Try again"
+          m6_fault_url: "%{recharge_form_url}"
+          m7_fault_title: "Something didn't go as planned"
+          m7_fault: We've had a minor technical glitch and haven't been able to process your request. Please try again in a few minutes or call us on 1511 to recharge over the phone.
+          m7_fault_link: ""
+          m7_fault_url: ""
+          m8_fault_title: "Please register your payment details"
+          m8_fault: Sorry, you'll need to save your credit card details before you can recharge. Please login to My Vodafone and update your account.
+          m8_fault_link: "Manage credit card"
+          m8_fault_url: "%{manage_credit_card_url}"
+          m9a_fault_title: "You can't recharge with your credit card"
+          m9a_fault: However, you can still choose another recharge option such as PayPal or a recharge voucher. For more info, call us on 1555 from your Vodafone mobile.
+          m9a_fault_link: ""
+          m9a_fault_url: ""
+          m9b_fault_title: "You're out of our recharge area"
+          m9b_fault: We can't process online recharges from your location. However, you can still recharge by calling 1555 from your Vodafone mobile.
+          m9b_fault_link: ""
+          m9b_fault_url: ""
+          m9c_fault_title: "Your card has been blocked"
+          m9c_fault: This means we can't accept your payment. However, you can always try another card or payment option.
+          m9c_fault_link: "Help me recharge"
+          m9c_fault_url: "http://vfau.co/support-recharge"
+          m10_fault_title: "It looks like your card has expired"
+          m10_fault: Please check your saved card details and try again.
+          m10_fault_link: "Manage credit card"
+          m10_fault_url: "%{manage_credit_card_url}"
+          m11_fault_title: "We can't verify your number."
+          m11_fault: Please check your number and try again. For more help, call us on 1555 from your Vodafone mobile.
+          m11_fault_link: ""
+          m11_fault_url: ""
+          m12_fault_title: "We are unable to accept this credit card"
+          m12_fault: Unfortunately, we can't process your request using this card. Please try another card or choose another payment option.
+          m12_fault_link: "Try again"
+          m12_fault_url: "%{recharge_form_url}"
+          m13_fault_title: "Something didn't go as planned"
+          m13_fault: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+          m13_fault_link: ""
+          m13_fault_url: ""
+          m14_fault_title: "There's a problem with your recharge"
+          m14_fault: It looks like we've charged your credit card but haven't been able to process your recharge. Please call us on 1555 from your Vodafone mobile and we'll sort this out for you.
+          m14_fault_link: ""
+          m14_fault_url: ""
+          m15_fault_title: "Please check your card details"
+          m15_fault: It looks like there was a problem with your credit card info. Please check your card details or choose another payment option and try again.
+          m15_fault_link: "Try again"
+          m15_fault_url: "%{recharge_form_url}"
+          m16_fault_title: "Sorry, but we can't process your request"
+          m16_fault: Please choose another recharge option, such as PayPal or a recharge voucher. For help, call us on 1555 from your Vodafone mobile.
+          m16_fault_link: ""
+          m16_fault_url: ""
+          m17_fault_title: ""
+          m17_fault: This credit card is already linked to another account. You'll need to unlink your card in My Vodafone before you can add it to this account.
+          m17_fault_link: ""
+          m17_fault_url: ""
+          m18a_fault_title: ""
+          m18a_fault: This number is already linked to a credit card. You'll need to unlink it in My Vodafone before you can add this number to your own account.
+          m18_fault_link: ""
+          m18_fault_url: ""
+          m18b_fault_title: ""
+          m18b_fault: This number is already linked to a credit card. You'll need to unlink it in My Vodafone before you can add this number to your own account.
+          m18b_fault_link: ""
+          m18b_fault_url: ""
+          m19_fault_title: "There's a small problem"
+          m19_fault: It looks like your account needs some attention before you can update your details. For help, please call us on 1555 form your Vodafone mobile.
+          m19_fault_link: ""
+          m19_fault_url: ""
+          m20_fault_title: "We can't find your account"
+          m20_fault: We're having trouble verifying your number. Please check the number is a Vodafone Prepaid number and try again. For help, call us on 1555 from your Vodafone mobile.
+          m20_fault_link: ""
+          m20_fault_url: ""
+          m21_fault_title: ""
+          m21_fault: Your credit card has been saved and is ready for use.
+          m21_fault_link: ""
+          m21_fault_url: ""
+          m22_fault_title: "There's been a small problem"
+          m22_fault: This option is only available to the primary account owner. To update your details, please sign into My Vodafone with this number.
+          m22_fault_link: ""
+          m22_fault_url: ""
+          m23_fault_title: "Your saved card details are missing"
+          m23_fault: We can't seem to find your saved credit card details. Please check the details in your account and try again.
+          m23_fault_link: "Manage credit card"
+          m23_fault_url: "%{manage_credit_card_url}"
+          m24_fault_title: "Too many linked services"
+          m24_fault: Sorry, you've already reached the maximum number of services linked to your account.
+          m24_fault_link: ""
+          m24_fault_url: ""
+      receipt:
+        paragraphs:
+          msisdn: "You've recharged"
+          save_credit_card:
+            title: Recharge faster
+            text: "Save this card for future recharges in the 'Manage credit card' section of My Vodafone."
+            link: My Vodafone
+          replace_credit_card:
+            title: Update saved card
+            text: "Want to replace your current saved card with this one? Go to the 'Manage credit card' section of My Vodafone."
+            link: My Vodafone
+          manage_credit_cards:
+            text: "We noticed that you didn't use your saved credit card. "
+            link: Update saved card details
+          register:
+            title: Check your balance
+            text: "Manage your settings and keep track of your prepaid usage with My Vodafone."
+            link: "Sign up to My Vodafone"
+      credit_card_error:
+        termsAndConditions:
+          notAccepted: You must accept the terms and conditions before recharging your account
+    plans:
+      index:
+        cta_text: Choose
+        page_title: Recharge options
+    success:
+      page_title: Recharge Successful
+      page_content:
+        head_text: Success!
+        addon: add-on
+        body_text: has now been recharged with a
+        foot_text: Your new balance will be updated in a few minutes.
+      receipt_text: "Your %{payment_method} receipt number is "
+      primary_button:
+        not_signed_in_text: Sign into My Vodafone
+        signed_in_text: Back to my usage
+      payment_method:
+        voucher: Voucher
+        paypal: PayPal
+  home:
+    index:
+      title: My usage
+      usage: My usage
+      usage_shared: Shared usage
+      data_usage_details: Data usage details
+      usage_gauges:
+        data:
+          link_text: View data usage
+          no_inclusion: Data used
+        value:
+          link_text: View all usage
+        international_calls:
+          link_text: "View int\'l mins"
+      entitlements: Your inclusions
+      entitlement_days_left:
+        zero: 0 days left
+        one: 1 day left
+        other: "%{count} days left"
+      entitlement_expired: 'Expired'
+      entitlement_expires_today: 'Expires today'
+      entitlement_expires_tomorrow: 'Expires tomorrow'
+      msisdn: Phone number
+      plan: Current plan
+      last_recharge: Last recharge
+      days_left:
+        zero: 0 days left in this bill
+        one: 1 day left in this bill
+        other: "%{count} days remaining"
+      ends: Ends on
+      extra_usage_html: Extra charges
+      extra_usage_plain: Extra charges
+      extra_charges_summary: Charges summary
+      extra_charges_description: Charges on top of your existing plan.
+      total_extra_charges: Total charges
+      what_is_extra_usage: Info
+      extra_usage_definition: Anything used in this bill period that isn't included in your plan or Add-on will be displayed here.
+      no_entitlements: There are no inclusions registered under your account.
+      manage_addons: View and buy add-ons
+      account_link: View my account
+      usage_details_link: Voice & text details
+      usage_details_link_html: "<em>View all usage</em>"
+      prepay_first_time: "Show your account some love and recharge with one of our prepaid options."
+      prepay_all_credit_expired: "You've used up all your credit. Recharge now to get your inclusions back."
+      prepay_main_credit_expired: "Some of your prepaid inclusions are out. Recharge now to get them back."
+      buy_add_on_hint: Increase your limit with an Add-on.
+      remaining: remaining
+      expires_on: Expires on
+      addons: Add-ons
+      recharge_heading: Recharge your account
+      recharge_link: Recharge
+      recharge_voucher_link: Voucher recharge
+      recharge_link_html: <em>Recharge</em>Add credit to your account.
+      prepay_recharge_pending: "Thanks for recharging! You'll be able to view your new balance in just a few moments. You can start using your <strong>%{amount} %{plan_name}</strong> recharge right away."
+      prepay_voucher_pending: "Thanks for recharging! You'll be able to view your new balance in just a few moments. You can start using your <strong>%{amount}</strong> recharge right away."
+      usage_updating: Usage updating
+      alerts:
+        link_text: Manage Vodafone Alerts
+      roaming:
+        link_text: Activate international roaming
+      recharge_history:
+        link_text: Recharge History
+      postpaid_usage:
+        quick_links:
+          title: Quick links
+        help_support:
+          help_support_title: "Help & support"
+          understand_bill: Understanding your bill
+          understand_bill_link: http://www.vodafone.com.au/help/account/billexplainer
+          change_plan: Change your plan
+          change_plan_link: http://support.vodafone.com.au/articles/FAQ/How-to-change-your-plan-online
+          international_roaming: International roaming
+          international_roaming_link: http://www.vodafone.com.au/personal/international-roaming
+          pay_my_bill_title: "Help & support"
+          your_payment_options: "Your payment options"
+          your_payment_options_link: "http://support.vodafone.com.au/articles/FAQ/How-to-pay-a-bill"
+          payment_processing_time: "Payment processing time"
+          payment_processing_time_link: "http://www.vodafone.com.au/help/account/paymentprocessinfo/index.htm"
+          more_help_support: "More"
+          more_help_support_link: "http://www.vodafone.com.au/help"
+          whats_this_charge: "What's this charge on my bill?"
+          whats_this_charge_link: "http://support.vodafone.com.au/articles/FAQ/Why-is-there-an-unusual-or-unexpected-charge-on-my-bill"
+        forms:
+          forms_title: Forms
+          purchase_proof: Proof of purchase
+          sim_swap: SIM replacement
+          change_pin: Change account PIN
+          more_requests: More requests
+      prepaid_usage:
+        help_support:
+          help_support_title: "Help & support"
+          ways_recharge: Ways to recharge
+          ways_recharge_link: http://support.vodafone.com.au/articles/FAQ/How-to-recharge-your-prepaid-service
+          credit_card: How to register a credit card
+          credit_card_link: http://support.vodafone.com.au/articles/FAQ/How-to-register-a-credit-card-for-prepaid-services
+          international_roaming: International roaming
+          international_roaming_link: http://www.vodafone.com.au/personal/international-roaming/international-roaming/index.htm
+        quick_links:
+          title: Quick links
+          manage_credit_card: Manage credit card
+        forms:
+          forms_title: Forms
+          purchase_proof: Proof of purchase
+          sim_swap: SIM replacement
+          more_requests: More requests
+  alerts:
+    index:
+      title: Vodafone Alerts
+      alert_title: Something didn't go to plan
+      manage_title: Manage alerts
+      manage_text: "Vodafone Alerts help you keep track of your usage, so you're always in control of your spend."
+      how_it_works_title: How it works
+      how_it_works_text: "When Vodafone Alerts is on, youll receive a TXT when you reach <strong>50%</strong>, <strong>85%</strong> and <strong>100%</strong> of your included call value and included data allowance."
+      status_title: Vodafone Alerts
+      active: 'ON'
+      inactive: 'OFF'
+      return_to_my_usage: 'Back to my usage'
+      save_settings: 'Save settings'
+      terms_and_conditions:
+        text: 'Before saving your settings, make sure you agree with these'
+        url: Terms and conditions
+      processing:
+        title: Checking your settings...
+        message: "Please don't leave this page"
+        alert_message_wait: We’ll TXT you in 5 to 15 minutes to let you know when this has been completed.
+        my_usage_link: Back to My Usage
+      errors:
+        not_eligible_title: "Unavailable"
+        not_eligible: |
+          We just checked and realised you're on an older plan. Vodafone Alerts is only available on our newer plans.<br><br>
+          Please accept our apologies, and call us on 1555 if you'd like to talk upgrades.
+        timeout: "It looks like we just had a technical mishap. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+        order_pending_title: "Currently updating"
+        order_pending: "We're just putting through your last request, which usually takes 5 to 15 minutes. Please try again soon."
+        other: "There's been a technical mishap retrieving your details. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+    faq:
+      title: Frequently asked questions
+      text: Answers to help you find out more about Vodafone Alerts
+      link_text: View FAQ
+      link_url: http://www.vodafone.com.au/personal/vodafonealerts
+    update:
+      title: Update
+      updating:
+        title: Just a moment...
+        message: "Please don't leave this page"
+      success:
+        title: Submitted
+        message_title: Updating Vodafone Alerts
+        message: "Your request has been submitted. Please allow up to 24 hours for this to be updated."
+      errors:
+        page_title: Vodafone Alerts
+        title: "Something didn't go to plan"
+        generic: "It looks like we just had a technical mishap. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+    unsupported_browser:
+      message: "Your browser is not supported. Try one of our recommended instead."
+      chrome:
+        text: "Google Chrome"
+        url: "http://www.google.com/chrome"
+      firefox:
+        text: "Firefox"
+        url: "http://www.mozilla.org/firefox"
+  roaming:
+    show:
+      title: International roaming
+      roaming_status_title: International roaming
+      processing:
+        title: Checking your settings...
+        message: "Please don't leave this page"
+      manage_title: Activate Roaming
+      form_title: Your Roaming option
+      errors:
+        error_title: "Something didn't go to plan"
+        timeouts: "It looks like we just had a technical mishap. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+        other: "There's been a technical mishap retrieving your details. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+        default: "There's been a technical mishap retrieving your details. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+      rates:
+        payg:
+          title: "You're on Pay-As-You-Go Roaming."
+          info: "Pay $1 per minute to make or receive calls, $1 per MB of data used and 75c per TXT or PXT."
+          text: "Why not switch to $5 Roaming?"
+        traveller:
+          title: "Standard Traveller"
+          zones: "Casual pay as you go rates"
+          rate: "Easy to understand call charges"
+          title1: "You're currently on PAYG Roaming"
+        postpaid:
+          link_text: View rates
+          link_url: http://www.vodafone.com.au/personal/international-roaming/roaming-for-postpay
+        prepaid:
+          title: "It doesn’t cost extra to activate your roaming. Whatever you use will come out of your included value."
+      terms: Terms and conditions
+      terms_notice: Roaming usage can incur extra charges. Please be aware of the cost. Read the full terms and conditions
+      world_notice:
+        title: Vodafone World
+        text: "You're still on Vodafone World. Learn about our other roaming options to see how you can save."
+      vf_traveller:
+        title: Standard Traveller
+        text: 'Simple international roaming'
+        notice: "We just need to let you know that once you switch to Standard Traveller, Vodafone World will no longer be available."
+      das:
+        title: Red Roaming
+        opt_out: 'Switching to Pay-As-You-Go Roaming may result in higher costs than $5 Roaming.'
+        activate: "Use your plan inclusions overseas"
+        features:
+          title: "You're on $5 Roaming."
+          text_one: "Use your plan's data and included value in "
+          text_two: "47 countries "
+          text_three: "for just $5 extra a day."
+          text_four: "Click here for details and exclusions."
+          text: "Use all the minutes, TXT and data included in your plan when visiting 46 countries across the US, NZ, UK, Europe and Asia for $5 extra per day."
+          text1: "To use your plan's data and included value in 47 countries for just $5 extra a day, you’ll need to switch to a new plan. Call us on +61 414 141 414."
+          one: Use all the minutes, TXT and data included in your plan when visiting 46 countries across the US, NZ, UK, Europe and Asia.
+          link_text1: "Find out more"
+          two: Only pay $5 extra per day when you use your phone overseas.
+          link_text: "More Details"
+          link_url: "http://www.vodafone.com.au/roaming"
+          link_faq_url: "https://www.vodafone.com.au/personal/international-roaming/faq"
+        view_rates:
+          link_text: "View Rates"
+      terms_and_conditions:
+        description: I have read and agree to the
+        description_red_roaming: By activating $5 Roaming I’ve agreed to the
+        decription_payg: By turning off $5 Roaming I’ve agreed to the
+        description_int_roaming: By activating international roaming I’ve agreed to the
+        link: Terms and Conditions.
+      save_settings: Save Settings
+      my_usage_link: Back to my usage
+      confirm_exit:
+        confirm: You have unsaved changes, are you sure you want to leave this page?
+        unload: You have unsaved changes
+      prepay_rates:
+        title: International roaming rates
+        text: Tell us where you're travelling to and we'll show you what it costs to connect in that country.
+        link_text: View rates and offers
+        link_url: 'http://www.vodafone.com.au/personal/international-roaming'
+      validation:
+        terms_and_conditions: You must accept the terms and conditions before changing your settings
+    processing:
+      title: Submitted
+      alert_title: Updating roaming
+      alert_message:
+        wait: Thanks, your changes will come in to effect in around 5 to 15 minutes.
+      my_usage_link: Return to My Usage
+    pending:
+      message: "<strong>Currently updating</strong> <br/> We're just putting through your last request, which usually takes 5 to 15 minutes. Please try again soon."
+    update:
+      processing:
+        title: Just a moment...
+        message: "Please don't leave this page"
+    no_changes:
+      title: No changes detected
+      message: "We didn't detect any changes and so haven't made any changes."
+      return_to_roaming: Return to international roaming
+  contact_details:
+    index:
+      title: Contact details
+      my_details:
+        title: 'Your details'
+        name: Name
+        account_number: Account number
+        other_contacts: "Contact numbers"
+        home_number: Primary
+        work_number: Other
+        email_address: "Billing email address"
+        email_address_description: "Only required for email billing. "
+        bill_options: "Manage bill options"
+        link_url: 'https://selfserve.myvodafone.com.au/myBill/do/loadChangeBillType'
+      my_address:
+        title: "Address"
+        care_of: "Care of (Optional)"
+        alternative_mail: "Your mail will be sent to this person"
+        home_adress_title: "Address"
+        postal_adress_title: "Billing address"
+        floor_type: "Unit type"
+        unit_no: "Unit number"
+        unit_no_example: "e.g. Unit 3, Level 7. etc"
+        street_no: "Street number"
+        street_name: "Street name"
+        street_type: "Street type"
+        line_1: "Address line 1"
+        line_2: "Address line 2"
+        city: "City/Suburb"
+        postcode: Postcode
+        state: State
+        country: Country
+        postal_address: "Postal address"
+        same_as_home_address: "Same as home address"
+        place_holder:
+          home: Numbers only
+          work: Numbers only
+          email: ''
+          care_of: Your mail will be sent to this person
+          floor: e.g. Unit 3, Level 7. etc.
+          floor_no: "Optional"
+          street_no: "e.g. 1, 5A"
+          street_name: ''
+          street_type: "e.g. Street, Road, Avenue."
+          line_1: "Street address line 1"
+          line_2: "Street address line 2"
+          city: ''
+          postcode: e.g. 1234
+        validate_message:
+          work_number: 'A phone number is required'
+          home_number: 'A phone number is required'
+          email: 'Email address is required'
+          floor_no: "Floor number has to be input"
+          floor: "Floor needs to be in the format 'Unit 7'"
+          street_no: "Street number is required"
+          street_name: "Street name is required"
+          street_type: "Street type is required"
+          line_1: "Line 1 is required"
+          line_2: "Line 2 is required"
+          city: "City/Suburb is required"
+          postcode: "Postcode is required"
+          postcode_length: "Postcode should be 4 digits"
+          phone_number: "Your entered phone number must be between 10 and 19 digits, do not include plus signs (+) or spaces."
+          either: "Please enter at least 1 phone number."
+          both: "Enter both unit type and unit number."
+      submit: "Submit"
+      return_to_my_usage: "Return to my usage"
+      manage_details_link: "Manage details"
+      update:
+        success:
+          title: Success
+          message_title: Good news
+          message: Your details have been updated
+          my_usage_link: Return to my usage
+          manage_details_link: Manage details
+        validation_error:
+          title: Something's not quite right
+          message: Please double check all your details and give it another go
+          field: This value is required.
+        generic_error:
+          title: Manage details
+          message_title: Something's not quite right
+          generic: We are experiencing a problem accessing your contact details, give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones.
+        updating:
+          title: "Updating contact details"
+          message: "Please don't leave this page"
+      alerts:
+        title: Vodafone Alerts
+        message: "To help you control your spend, we're going to let you know as you approach your plan's monthly limit. It's just one less thing to worry about."
+        button: Manage Vodafone alerts
+  international_calling:
+    show:
+      title: International calling
+      international_calling_status_title: International calling
+      my_usage_link: Back to my usage
+      save_settings: 'Save settings'
+      return_to_my_usage: 'Back to my usage'
+      processing:
+        title: Checking your settings...
+        message: "Please don't leave this page"
+      rates:
+        link_text: Find out more
+        message: When international calling is on, you can  make overseas calls from Australia
+        link_url: http://www.vodafone.com.au/personal/services/idd/international-calling
+      faq:
+        title: Frequently asked questions
+        description: Answers to help you find out more about international calling.
+        link_text: View FAQ
+    update:
+      title: Update
+      updating:
+        title: Just a moment...
+        message: "Please don't leave this page"
+      success:
+        title: Submitted
+        message_title: Updating international calling
+        message: Your request has been submitted. Please allow 5 to 15 minutes until activation.
+    pending:
+      message: "<strong>Currently updating</strong> <br/> We're just putting through your last request, which usually takes 5 to 15 minutes. Please try again soon."
+    errors:
+      title: "Something didn't go to plan"
+      default: "There's been a technical mishap retrieving your details. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+  auto_recharges:
+    index:
+      title: Auto recharge
+  sessions:
+    corporate_login_error_title: Call us for details
+    corporate_login_error: Your Vodafone Corporate account details are just a phone call away. Dial 135 888 to speak with a Vodafone corporate customer care consultant. We're here between 8am and 8pm Monday to Friday and 9am to 5.30pm on weekends (AEST).
+    inactive_login_error_title: Account inactive
+    inactive_login_error: "We thought you were long gone. If you'd like more info, call us on 1300 650 410."
+    invalid_subscription_login_error_title: "Service not in use"
+    invalid_subscription_login_error: "This service number hasn't been used in quite some time, so it's no longer active. If this was your previous number call us on 1300 650 410."
+    destroy:
+      signed_out_title: "Signed out"
+      timed_out_title: "Timed out"
+      message: "You've been signed out of My Vodafone."
+      timeout_message_title: "You're back!"
+      timeout_message: "We thought you'd forgotten about us, so we timed your session out as a security measure."
+      timeout_continue: "Try these options."
+      sign_in_again_link: 'My Vodafone'
+      visit_vodafone_link: 'Vodafone home'
+  services:
+    index:
+      title: 'Your services'
+      signed_in_as: (Signed in as)
+    show:
+      title: Your service %{msisdn}
+  pins:
+    new:
+      title: 'Account PIN'
+      pin_label: 'Confirm to access more options'
+      back: Cancel
+      next: Next
+      pin_retrieval_instruction: Forgot your four digit PIN? Call our Customer care team on 1555.
+      processing_title: Processing
+      processing_message: Processing your pin
+    errors:
+      invalid: 'Invalid PIN'
+      required: 'Please enter your PIN'
+      length: 'Your PIN should be four digits'
+      default: "We're having problems checking your PIN right now. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+      fusion: "We're having problems checking your PIN right now. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+  accounts:
+    index:
+      title: My account
+      billing_account_number: 'Account:'
+      my_usage_link: View %{msisdn}
+      shared: Part of %{plan_name}
+      extra_charges_title: Extra charges
+      exc_gst: excl. GST
+  account_balances:
+    billing_account: 'Account'
+    show:
+      title: "Bills & payments"
+      billing_account: 'Account'
+      total_to_pay: 'Total to pay'
+      next_bill_due: 'Your next bill is on'
+      no_payment_required: 'No payment required'
+      credit: 'CR'
+      credit_allocated_to_next_bill: 'Credit will be applied to your next bill.'
+      new_charges: 'New charges'
+      outstanding_balance: 'Overdue balance'
+      overdue_pay_now: "Overdue: please pay ASAP."
+      new_and_overdue: "overdue: please pay ASAP."
+      pay_by: 'Pay by'
+      due_by: 'Due by'
+      due_by_late: 'due by'
+      link: 'Make a payment'
+      direct_debit: 'Setup direct debit'
+      manage_direct_debit: 'Manage direct debit'
+      direct_debit_amount: Direct debit amount
+      direct_debit_on: Next charge
+      direct_debit_payment_disabled_notification_title: Less than 48 hours till your next debit
+      direct_debit_payment_disabled_notification: The option to make a payment has been disabled to avoid double charging.
+      bill_payment_details_title: 'Recent activity'
+      invoice:
+        overdue: 'Overdue'
+        owing: 'Owing'
+        paid: 'Paid'
+        none: 'Nothing to report yet'
+        load_more: 'View more'
+        older_bills: 'For older bills contact'
+        invoice_number: 'Invoice no.'
+        issued_on: 'Issued on:'
+        older_bills_link: 'Customer care'
+        download_error: 'This invoice is currently unavailable. Please try again later.'
+      payment_extension:
+        title: Need more time to pay?
+        link:
+          text: Request an extension
+    payment_extension:
+      title: Payment extension
+      copy: 'To request a payment extension of up to 14 days, call us on <strong>1300 728 649</strong> from standard phones, +61 414 14 14 14 from overseas.'
+      copy_mobile: 'To request a payment extension of up to 14 days, call us on <strong>1300 728 649</strong> from standard phones, +61 414 14 14 14 from overseas, or by clicking Call below to free call us when in Australia.'
+      faq_title: Frequently asked questions
+      faq_description: Answers to help you find out more about payment extensions
+      more_link: View FAQ
+      back_to_bills_and_payments: 'Back to bills & payments'
+      call_link: Call 1300 728 649
+  account_settings:
+    index:
+      title: 'Account settings'
+      sections:
+        account: 'Account'
+        service: 'Service'
+        payment: 'Payment'
+      account:
+        adjustment_history: 'Adjustment history'
+        manage_contact_details: 'Manage contact details'
+        recharge_history: 'Recharge History'
+        change_my_vodafone_password: 'Change My Vodafone password'
+        change_account_pin: 'Change account PIN'
+        get_puk_code: Get PUK code
+        sim_swap: SIM replacement
+      service:
+        vodafone_alerts: 'Vodafone Alerts'
+        manage_add_ons: 'Manage Add-ons'
+        international_roaming: 'International roaming'
+        international_calling: 'International calling'
+        subscription: 'Subscriptions'
+        data_usage: 'Data usage'
+        premium_text: 'Premium text'
+        divert_calls: 'Divert calls'
+        parental_lock: 'Parental lock'
+        change_phone_settings: 'Change phone settings'
+        network_settings: 'Call & service settings'
+        more_services: 'More services'
+        rate_plan_change: "Change plan"
+      payment:
+        register_credit_card: 'Manage credit card'
+        manage_direct_debit: 'Manage direct debit'
+        manage_billing_options: 'Manage billing options'
+        more_payment_options: 'More payment options'
+        proof_of_purchase: 'Proof of purchase'
+  prepaid_options:
+    index:
+      title: Prepaid options
+      recharge_now: Recharge now
+      view_plan_info: View plan info
+      auto_recharge: Auto recharge
+      view_prepaid_usage_details: View prepaid usage details
+      view_adjustment_history: View adjustment history
+      more_prepaid_options: More prepaid options
+  bill_payments:
+    new:
+      title: Pay bill
+      payment: Enter payment
+      verizon: Your payment is safe with Verizon Cybertrust.
+      yes: Yes
+      no: No
+      form_title: Payment details
+    quick_links:
+      title: Quick links
+      pay_my_bill: Pay my bill
+      setup_direct_debit: Setup direct debit
+      billing_options: Billing options
+    error:
+      retry: Try again
+      abort: "Bills & payments"
+    missing_mandatory_field:
+      title: Mandatory field required
+      message: "Looks like you've missed filling in a mandatory field."
+    credit_card_error:
+      title: Invalid card details
+      message: "It was most likely a minor typo. Give it another go but keep in mind that three unsuccessful attempts will result in a blocked card. If you're sure your details are correct call your card provider."
+    invalid_payment_amount:
+      title: Check payment amount
+      message: "The amount you just paid doesn't match your required bill payment. Please call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones for more information."
+    invalid_msisdn:
+      title: Invalid number
+      message: "We can't accept your payment as the mobile number you've entered is invalid. Give it another go, or call us on 1555 from your Vodafone mobile or 1300 650 410 if you continue to see this message."
+    invalid_billing_account:
+      title: Invalid account number
+      message: "We can't accept your payment as the account number you've entered is invalid. Give it another go, or call us on 1555 from your Vodafone mobile or 1300 650 410 if you continue to see this message."
+    card_expired:
+      title: Expired card
+      message: "Ahh, the expired card. Not only do they take up valuable space in your wallet, but they also prevent any payments from being processed. It's time to either try another card or call your card provider."
+    card_unsupported:
+      title: Unsupported card
+      message: "Unfortunately this credit card is not supported by our payment system."
+    subscriber_not_found:
+      title: Service not in use
+      message: "This service number hasn't been used in quite some time, so it's no longer active. If this was your previous number call us on 1300 650 410."
+    blocked_cc:
+      title: Blocked card
+      message: "This card has been blocked, so we can't accept it. Try another card or call us to complete this payment by dialling 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+    timeout:
+      title: "Payment can't be confirmed"
+      message: "A timeout glitch has prevented us from confirming whether your payment has been received. We recommend waiting a few hours then checking your My Vodafone account to see if your payment has come through. We apologise for any inconvenience this causes."
+    duplicate_payment:
+      title: Duplicated payment
+      message: "You just made a payment. To make another payment, please wait a couple of minutes and try again."
+    payment_declined:
+      title: Declined payment
+      message: "Nobody likes rejection, including this payment. We don't know why this payment was declined. Please get in touch with your card provider, otherwise try another card."
+    surcharge:
+        disclaimer: "We accept VISA, MasterCard, Diners Club and American Express cards. Please be aware there's a processing surcharge of 1% (plus GST) on VISA and MasterCard, 2% (plus GST) on Diners Club and 2.15% (plus GST) on American Express cards. These charges will appear on your next bill."
+        visa: "Visa surcharge of 1% (plus GST) applies."
+        mastercard: "MasterCard surcharge of 1% (plus GST) applies."
+        amex: "American Express surcharge of 2.15% (plus GST) applies."
+        diners: "Diners Club surcharge of 2% (plus GST) applies."
+    form:
+      msisdn_ban: Mobile service number or account number
+      msisdn_ban_tooltip: You can find your nine digit account number in the top right hand corner of your monthly bill
+      amount: Payment amount
+      empty_amount: Amount needs to be greater than zero
+      invalid_amount: Invalid amount
+      number: Mobile service number or account number
+      empty_number: Enter your ten digit mobile number starting with 04 or your nine digit account number
+      invalid_number: Enter your ten digit mobile number starting with 04 or your nine digit account number
+      next: Next
+      cancel: Cancel
+      cancel_confirm: Are you sure?
+    review:
+      title: Review payment
+      billing_info: Billing information
+      review_details: Review your details
+      surcharge:
+        visa: Fee is 1% (plus GST)
+        mastercard: Fee is 1% (plus GST)
+        amex: Fee is 2.15% (plus GST)
+        diners: Fee is 2% (plus GST)
+      msisdn: Mobile service number
+      change_service: Please double check your details before making a payment.
+      change_service_link: Edit
+      ban: Account number
+      amount: "You're about to pay"
+      cc_type: Card type
+      cc_number: Card number
+      cc_expiry: Expiry date
+      ccv: CCV
+      pay: Pay
+      processing:
+        title: Processing payment...
+        message: "Please don't leave this page"
+        disable: Bill payments cannot be currently processed
+    create:
+      title: Processing payment
+  receipts:
+    show:
+      title: Success
+      thankyou: "Payment confirmed"
+      receipt: "The receipt number is"
+      updated_at: "We'll aim to update your account within 30 minutes, but may take up to 12 hours."
+      note: "If your account was barred, you'll be up and running again soon."
+      another_payment: 'Make new payment'
+      amount: Amount paid
+      return_to_my_usage: "Return to my usage"
+      vodafone_home: Vodafone home
+      vodafone_home_link: http://www.vodafone.com.au/
+  network_settings:
+    show:
+      title: "Call & service settings"
+      processing:
+        title: Checking your settings...
+        message: "Please don't leave this page"
+      sections:
+        call_settings:
+          title: Call Settings
+          groups:
+            call_conference: Allow call conference
+            outgoing_caller_id: Show caller ID
+            call_barring: Call barring
+          more_info:
+            call_barring: "You can use <a href='http://support.vodafone.com.au/articles/FAQ/How-to-use-GSM-Codes-to-manage-call-barring'>GSM codes</a> to place a bar yourself or you can <a href='http://www.vodafone.com.au/help/contactus'>contact us</a> and we'll place one for you"
+        sim_settings:
+          title: SIM settings
+          groups:
+            puk_code: PUK code
+      status:
+        active: Active
+        inactive: Inactive
+    update:
+      success: Settings saved
+      fail: Something went wrong
+    action:
+      save: Save changes
+    alert:
+      outgoing_barring_active:
+        title: Outgoing barring
+        message: "Calls you make won't connect and you'll hear a recorded message letting you know call barring is active."
+      all_call_barring_active:
+        title: "Incoming & Outgoing barring"
+        message: "When someone tries to call you, the call won’t connect and we’ll let them know you’ve got incoming call restrictions.\nCalls you make won't connect and you'll hear a recorded message letting you know call barring is active."
+  usage_helper:
+    zero_megabytes: '0MB'
+    less_than_1_megabyte: '< 1MB'
+    less_than_1_kilobyte: '< 1KB'
+    minutes: min
+  unit_formatting_helper:
+    minutes: minutes
+  logo_title: Back to My usage
+  side_navigation:
+    home: 'Dashboard'
+    usage: 'My usage'
+    sign_out: 'Sign out'
+    account_balance: 'Bills & payments'
+    alerts: 'Vodafone Alerts'
+    roamings: 'International roaming'
+    data_usage: 'Data usage'
+    contact_details: 'Contact details'
+    back_button: Back
+    account_settings: 'Account settings'
+    terms_conditions: 'Terms and conditions'
+    manage_addons: View and buy add-ons
+  desktop_navigation:
+    usage: 'My usage'
+    sign_out: 'Sign out'
+    account_balance: 'Bills & payments'
+    account_settings: 'Account settings'
+  disclaimer:
+    header: Things you need to know
+    postpay: "Most usage is updated within 18 hours, but if you're roaming overseas it may take up to 72 hours. Prices are rounded to the nearest cent and don't include discounts or charges that may apply when your bill is issued. We've assumed a 10% GST on all your charges, which may vary when roaming overseas. Please regard this as a usage guide and not a tax invoice. For the final summary, check your bill."
+    prepay: Please regard the balances shown here as a usage guide only as not all charges can be updated instantly. All prices are inclusive of GST where applicable.
+  processing_payment:
+    title: Processing payment...
+    message: "Please don't leave this page"
+  errors:
+    home_link: My usage
+    vodafone_link: Vodafone home
+    :503:
+      base:
+        title: "Something didn't go as planned"
+        description: "The pressure has gotten to this page. Try again, and if you continue to see this message, call us on 1555 from your Vodafone mobile or 1300 650 410 from another phone."
+      express_recharge:
+        title: "Something didn't go as planned"
+        description: "Recharge is currently unavailable. We hope to have it back up shortly. If you urgently need to recharge, call us on 1555 from your Vodafone mobile or 1300 650 410 from another phone."
+        try_again: Try again
+    :403:
+      name: Forbidden
+      title: You are here
+      description: "The page you're heading to, however, isn't suitable for your account. Here's something to put you back on track:"
+    :404:
+      title: You are here
+      description: "The page you're looking for, however, isn't. It has either moved, no longer exists or there could be a typo in the URL address entered. Here's something to put you back on track:"
+    :500:
+      title: "Something didn't go as planned"
+      description: "The pressure has gotten to this page. Try again, and if you continue to see this message, call us on 1555 from your Vodafone mobile or 1300 650 410 from another phone."
+    :504:
+      title: "Something didn't go as planned"
+      description: "The pressure has gotten to this page. Try again, and if you continue to see this message, call us on 1555 from your Vodafone mobile or 1300 650 410 from another phone."
+  javascript:
+    parsley:
+      msisdn:
+        invalidNumberLength: "It looks like you're a few digits short"
+        default: Invalid number entered
+    commercial_offer_validator:
+      errorMessages:
+        plan:
+          empty: Select your recharge option
+        amount:
+          empty: "Recharge amount can't be blank"
+    plan_chooser:
+      recharge_amount_select: Recharge amount
+  direct_debits:
+    title: Direct debit
+    current:
+      bank_account:
+        using_now: You're on bank account
+        account_name: Account name
+        account_number: Account number
+        bsb: "BSB"
+      credit_card:
+        using_now: You're on credit card
+        card_type: Credit card type
+        card_holder_name: Name on card
+        card_number: Card No.
+        card_expiry: Expiry
+      update_details: 'Update details'
+      cancel: 'Cancel direct debit'
+    cancel:
+      title: 'Cancel direct debit'
+      link: 'Cancel direct debit'
+      keep_it: 'Keep it'
+      section_text: 'Are you sure you want to cancel direct debit as your payment method?'
+      success:
+        section_title: 'Done'
+        section_text_1: "Your request to cancel direct debit may take up to 24 hours to process, so please don't make any payments that are due within this time."
+        section_text_2: "You may set your direct debit back up at any time."
+    form:
+      title: Payment options
+      submit: Submit request
+      error:
+        account_name:
+          empty: "Account name can't be blank"
+        account_number:
+          empty: "Account number can't be blank"
+          invalid: "Account number must be minimum six digits long"
+        bsb:
+          empty: "BSB can't be blank"
+          invalid: BSB must be six digits long
+        terms_and_conditions: Please read and accept the terms and conditions before continuing
+      payment_options:
+        bank_account:
+          title: Bank account
+          bsb: BSB
+          account_number: Account number
+          account_name: Account name
+        credit_card:
+          title: Credit card
+          card_holder_name: Name on card
+          card_number: Card No.
+          card_expiry: Expiry
+          ccv: CCV
+      terms_and_conditions:
+        text: "I have read, understood and agreed to the %{link}. I acknowledge that by submitting this Direct Debit Request, the terms and conditions of the %{link} are binding on me or the Company that I am authorised to represent."
+        link_url: http://www.vodafone.com.au/aboutvodafone/legal/direct-debit-service-agreement
+        link_text: Direct debit service agreement
+      confirm_exit:
+        confirm: You have unsaved changes, are you sure you want to leave this page?
+        unload: You have unsaved changes
+    success:
+      section_title: Done
+      section_text: "Your direct debit request has been submitted. If you have any charges owing, please don't make a payment as we'll debit your account automatically."
+      link: Back to my usage
+    processing:
+      title: Processing...
+      message: "Please don't leave this page"
+    error:
+      page_title: Oops...
+      title: Something didn't go as planned
+      message_1: "There was an issue trying to access your payment details."
+      message_2: "Please go back to payment options to try again."
+      try_again: Try again
+      my_usage_link: 'Back to my usage'
+    faq:
+      title: Frequently asked questions
+      message: Answers to help you find out more about Direct Debit.
+      button_link: http://support.vodafone.com.au/articles/FAQ/How-to-set-up-a-direct-debit-online
+      button_text: View FAQ
+  recharge_now:
+    new:
+      title: Recharge now
+  online_forms:
+    proof_of_purchase:
+      msisdn: Choose your number
+      title: Proof of purchase
+      intro: A proof of purchase may be required if your device is being repaired under warranty or if you’re submitting an insurance claim. We’ll email your document by the end of the next business day.
+      header: Proof of purchase
+      about_you: About you
+      about_your_purchase: About your purchase
+      about_your_phone: Phone details
+      info_1: We aim to complete your request within 1 business day, if your request was completed satisfactorily and during business hours (Monday to Friday 9am to 5pm, except public holidays). Requests received outside of business hours will be completed on the next business day. Once you've submitted your request, you will receive an email notification confirming your request. This email will contain a copy of your request. You will also be notified by SMS to the mobile number you used to log into My Vodafone confirming your request.
+      info_2: We aim to complete your request within the timeframes indicated on the on-line forms. Please keep in mind that if the request form is incomplete then this time may vary.
+      form:
+        error:
+          imei: IMEI Number is 15 digits long
+        msisdn: Select number
+        name: Your name
+        contact_number: Contact number (optional)
+        purchased_from:
+          label: Handset purchased from
+          online: Online
+          phone: Phone
+          store: Store
+          other: Other
+        other_details: Details
+        reason: Reason for proof of purchase
+        details_placeholder: Details about where you purchased your phone
+        reason_placeholder: e.g Repair/Insurance purposes
+        imei: IMEI number for this handset (dial *#06# on your handset)
+        handset: Handset make / model
+        handset_placeholder: e.g Nokia E63
+        email: Email to receive the proof of purchase
+        submit: Submit
+      help_support:
+        title: Proof of purchase
+        link: http://support.vodafone.com.au/articles/FAQ/How-to-request-a-proof-of-purchase-certificate
+      confirmation:
+        text: "<strong>Thanks!</strong><br/>We’ll send you a TXT shortly, then follow up with an email containing your proof of purchase."
+        button: Back to my usage
+    sim_swap:
+      msisdn: Choose your number
+      title: SIM replacement
+      header: SIM replacement
+      about_you: About you
+      sim_details: SIM details
+      intro: If you’re already with Vodafone, and you’ve got a new SIM, you’ll need to activate it by doing a SIM replacement. This will allow you to bring your number and contacts over from your old SIM. It usually takes less than an hour, but it could take up to 4 business hours if we’re really busy.
+      form:
+        error:
+          sim_number: SIM number should be 20 digits
+        msisdn: Swap SIM from
+        name: Your name
+        contact_number: Contact number
+        sim_number:
+          label: New SIM number
+          description: 20 digit number on your SIM card starting with 89
+        submit: Submit
+      static:
+        intro: Activate your replacement SIM over the phone.
+        all_you_need:
+          header: Make sure you have the following information before you call
+          requirements:
+            -
+              icon: phone-number
+              text: Your mobile number
+            -
+              icon: secure
+              text: Your 4 digit account PIN
+            -
+              icon: sim
+              text: Last 10 digits of your new SIM number
+        request: To activate your replacement SIM card call <strong>1300 788 055</strong>.
+        call_button: Call <strong>1300 788 055</strong>
+        info: This should take around 30 minutes from when you've provided all your information, but in some cases it can take between 2 to 24 hours.
+      help_support:
+        -
+          title: How to activate your new Vodafone service?
+          link: http://support.vodafone.com.au/articles/FAQ/Activate-your-new-Vodafone-SIM-card
+        -
+          title: How to get a blank replacement SIM?
+          link: http://support.vodafone.com.au/articles/FAQ/How-to-get-a-replacement-SIM-card
+        -
+          title: Back up SIM contacts
+          link: http://support.vodafone.com.au/articles/FAQ/Backup-your-contacts-to-the-web
+        -
+          title: Transferring your contacts to your new phone
+          link: http://support.vodafone.com.au/articles/FAQ/Transferring-your-contacts-to-your-new-phone
+      confirmation:
+        text: "Your new Vodafone SIM should be active within 4 business hours. Keep your old SIM in your phone until you no longer have service, replace it with your new Vodafone SIM, and turn on your handset.<br/><br/>
+               <strong>Some things to remember:</strong><br/><br/>
+               Please keep your old SIM card handy until your request has been completed, in case you have problems transferring the memory to your new Vodafone SIM. Also, have your old phone switched on in case we need to contact you.<br/><br/>
+               iPhone users will also need to synch their iPhone with iTunes to complete the activation process."
+        success: "<strong>Success!</strong><br/>Your new Vodafone SIM should be active within 4 business hours. When your old SIM stops working, replace it with your new Vodafone SIM."
+        tips_title: "A few tips"
+        tips:
+          - "Keep your old SIM handy until your request has been completed."
+          - "Have your old phone switched on in case we need to contact you."
+          - "If you have an iPhone, you’ll need to synch it with iTunes to finish the process."
+        button: Back to my usage
+  extra_charges:
+    show:
+      title: Extra charges
+      links:
+        help_and_support: Help and support
+        detailed_usage: View detailed usage
+        addons: View and buy add-ons
+        bills_and_payments: View and pay bills
+        alerts: Manage Vodafone alerts
+        me: Me
+        shared: Shared
+    unbilled_usage:
+      includes_gst: Includes GST (where applicable)
+  data_usage:
+    show:
+      title: Data usage
+      subtitle:
+        data: Data used
+      my_usage_link: Back to My Usage
+      errors:
+        error_title: "Something didn't go as planned"
+        default: "It looks like we just had a technical mishap. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+      processing:
+        title: Checking your usage...
+        message: "Please don't leave this page"
+      no_usage_data: "No data usage found."
+      current: "Current:"
+      pin_capture:
+        enter: This will allow you to see usage for other devices on the shared plan.
+        error: An error occurred whilst processing your PIN. Please try again later.
+        title: Enter the account PIN
+        click: Go
+      tabs:
+        overview: "Overview"
+        daily_breakdown: "Daily breakdown"
+      overage:
+        warning_in_the_head:
+          overage_text: "You've used up all your data for this month. Data usage will now be charged on top of your plan. %{link}."
+          remaining_text: "Extra data charges have occurred during this period. %{link}."
+          overage_link_text: Add more data
+          remaining_link_text: View usage details
+        warning_in_the_circle: "over your\n allowance"
+      entitlements:
+        add_on: data Add-on
+        booster: data booster
+        me: Me
+        other_devices: Other devices
+        no_entitlement:
+          center_subtext: data used
+          subtitle: No included data
+          text: No inclusions on this service.
+          warning_in_the_head:
+            text: "Your current plan doesn’t include data."
+            link_text: Add more data.
+      barchart_subtitle:
+        data_used: data used
+      consumer_data:
+        title: "What I've been using:"
+        limit: 5
+        show_more_text: Show more
+        disclaimer:
+          text: "This is a guide only. Data usage for some items may have occurred via other sites, %{link1}. Some items may not use your %{link2}."
+          link1_text: learn more
+          link1_url: http://support.vodafone.com.au/articles/FAQ/Free-rated-content-and-My-Vodafone-detailed-data-usage
+          link2_text: data inclusions
+          link2_url: http://support.vodafone.com.au/articles/FAQ/Data-usage-categories-in-My-Vodafone
+        data_not_available_text: "There is currently no data usage information to display."
+      addons_link: Buy more data
+      links:
+        all_usage: View all usage
+        bills_and_payments: View and pay bills
+        addons: View and buy add-ons
+        alerts: Manage Vodafone alerts
+        addons_link: Buy more data
+        help_and_support: Help and support
+        related_links: Quick links
+      disclosure_text: "Most usage is updated within 18 hours, but if you’re roaming overseas it may take up to 72 hours. This is a usage guide, and does not reflect any discounts, exclusions or adjustments that may apply when your bill is issued."
+  internal_server_error:
+    title: "Something didn't go as planned"
+    message: "It looks like we just had a technical mishap. Your payment hasn't gone through, so please give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+  dashboard:
+    index:
+      title: Dashboard
+    prepay:
+      entitlements: Your Entitlements
+      days_left: days left
+      no_expiry: No expiry
+      entitlement_expires_today: Expires today
+      entitlement_expires_tomorrow: Expires tomorrow
+      no_entitlements: There are no inclusions registered under your account.
+      recharge_now: Recharge now
+    gauges:
+      data_total: "{{%{total} | gaugeData }} total"
+      value_total: "%{total_value} total"
+    links:
+      my_usage: My usage
+      my_usage_link: link
+      recharge_now: Recharge now
+      bills_and_payments: Bills and payments
+      account_settings: Account settings
+      contact_us: Contact us
+      support: Support
+      locator: Store locator
+  shared:
+    post_pay_service:
+      data_gauge_title: Data
+      data_gauge_title_shared: Shared data
+      additional_data_gauge_title: Additional data
+      value_gauge_title: Value
+      value_gauge_title_shared: Shared value
+      international_calls_gauge_title: Int'l calls
+      international_calls_gauge_title_shared: Shared int'l calls
+    buttons:
+      return_usage: Return to my usage
+      change_service_link: Change
+    entitlements:
+      group:
+        data: Data
+        value: Voice and text
+        other: Other
+        international_calls: International calls
+      short_names:
+        'Included value': "#VALUE# plan value"
+        'Talk & TXT Booster': "#VALUE# Talk & TXT booster"
+        'Included data - Add-on/Mobile Broadband': "#VALUE# data Add-on"
+        'Included data - Add-on': "#VALUE# data Add-on"
+        'Included data - plan': "#VALUE# plan data"
+        'Data Booster': "#VALUE# data booster"
+        'Included International Calls': "#VALUE# international calls"
+        'Additional data': "<strong>#VALUE# additional data</strong>"
+        'Included data - Mobile Broadband plan': "#VALUE# plan data"
+        'Additional Standard Data': "#VALUE# plan data"
+      used_of: of
+      units_left: left
+      see_parent:
+        heading: "Usage detail unavailable"
+        text: "If you'd like to view the usage of this plan, please sign in using the primary Account Holder's details."
+      additional_data_warning:
+        only_additional_data_left: "Extra charge of %{costs} (excl. GST) for an additional %{total} of data."
+        not_only_additional_data_left: "Extra charges have been incurred for additional data use."
+    data_workout:
+      text: You're on Data Workout.
+    credit_card:
+      detail: Enter card details
+      name: Name on card
+      number: Card No.
+      ccv: CCV
+      ccv_visa_master: The last 3 digits on the back of your card
+      ccv_amex: The top 4 digits on the front of your card
+      saved: Pay with saved card
+      last4: Last four digits
+      expiry: Expiry
+      expiry_placeholder: MM/YY
+      submit: Recharge now
+      type: Credit card type
+      types:
+        select: Select card type
+        visa: Visa
+        visa_accepted: Visa accepted
+        mastercard: MasterCard
+        mastercard_accepted: MasterCard accepted
+        amex: American Express
+        amex_accepted: American Express accepted
+        diners: Diners
+        diners_accepted: Diners accepted
+      credit_card_error:
+        holderName:
+          empty: "Name on card can't be blank"
+        number:
+          empty: "Card number can't be blank"
+          invalid: Invalid card number
+        expiryDate:
+          empty: "Expiry date can't be blank"
+          past: "Expiry date can't be in the past"
+          invalid: Invalid expiry date
+        fraud:
+          failure_title: Payment unsuccessful
+          failure: "We were unable to accept payment from your saved card. Check that your card details are correct in My Vodafone, or try another card."
+        ccv:
+          empty: "CCV can't be blank"
+          invalid: Invalid CCV
+        last4digits:
+          empty: "Last four digits can't be blank"
+          invalid: Invalid last four digits
+    window_dialog:
+      cancel_confirm: This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+    bank_account:
+      bsb: BSB
+      account_number: Account number
+      account_name: Account name
+    accepted_payments: Accepted payments
+  hss_url:
+    manage_add_ons: Manage Add-ons
+    usage_details: Usage details
+    usage_alerts: Vodafone Alerts
+    more_services: More services
+    change_my_vodafone_password: Change My Vodafone password
+    change_account_pin: Change account PIN
+    get_puk_code: Get PUK code
+    sim_swap: SIM replacement
+    premium_text: Premium text
+    divert_calls: Divert calls
+    parental_lock: Parental lock
+    proof_of_purchase: Proof of purchase
+    manage_billing_options: Manage billing options
+    more_payment_options: More payment options
+    change_phone_settings: Change phone settings
+    view_prepaid_usage_details: View prepaid usage details
+    view_adjustment_history: View adjustment history
+    recharge_now: Recharge now
+    view_plan_info: View plan info
+    auto_recharge: Auto recharge
+    more_prepaid_options: More prepaid options
+    view_usage_details: View usage details
+
+  external_url:
+    title: Other useful stuff
+    home: Vodafone home
+    shop: Shop
+    help_and_support: Support
+    contact_us: Contact us
+    store_locator: Store locator
+  support_widget:
+    title: "Help & support"
+  login:
+    index:
+      title: "Login to My Vodafone"
+      change_title: "Change password"
+      msisdn: "Mobile number"
+      password: "Password"
+      new_password: "New password"
+      new_password_confirm: "Confirm new password"
+      forgot_password: "Forgot password?"
+      remember_me: "Remember me"
+      button_text: "Login"
+      require_password: Password is required
+      login_info_html: 'For your security, you’ll need to sign in manually when using Wi-Fi. You’ll be automatically signed in when using your SIM on our network.'
+      set_password: Update password
+      processing: Processing...
+      please_choose_new_password: You've logged in using a temporary or expired password. Please choose your new permanent one.
+      password_should_be_like_this: "Passwords must be between 8 and 16 characters in length, and contain the following: a number, an upper case character and a lower case character."
+      password_cannot_contain: "It cannot contain: your mobile number, your e-mail address or your name (first or last)"
+  addons:
+    addons:
+      index:
+        title: Manage Add-ons
+      addons:
+        title: My Add-ons
+        detail: "Watch, talk and share more. Add-ons give you more value every month."
+        from: from only
+        per_month: per month
+        category_detail:
+          data: "Save money, get more internet."
+          talk_and_txt: "Get more value for calling and texting within Australia."
+          international_calls: "More minutes to call friends and family overseas from Australia."
+        no_add_ons_title: My Add-ons
+        no_add_ons_description: "Currently you don't have any Add-ons available for your service."
+        no_add_ons_my_usage_link: Back to my usage
+        shareable: Shareable
+        not_shareable: Not Shareable
+        not_shareable_message: This Add-on can only be used by the owner of the Primary plan.
+      products:
+        title: "{{ category_name }} Add-ons"
+        addons_title:
+          data: I want extra data every month
+          talk_and_txt: One-off Talk and TXT Booster
+          international_calls: Monthly International calls Add-on
+        boosters_title:
+          data: I just need extra data now
+          talk_and_txt: "One-off Talk and TXT Booster"
+          international_calls:
+        faqs_title: 'Help and Support'
+        cancel: Cancel
+        remove_addon: Remove Add-on
+        change_addon: Change to this Add-on
+        buy_addon: Continue
+        buy_booster: Continue
+        paragraph:
+          addons:
+            data: "Data Add-ons give you more data when you need it. Data Add-ons automatically renew every month, but there’s no commitment and you can cancel at any time."
+            talk_and_txt:
+            international_calls: "International Add-on gives you better value international calls to use each month. International calls add-ons automatically renew every month, but there's no commitment and you can cancel any time."
+          boosters:
+            data: "If you've gone over your included usage for the month (or you’re about to), a one-off Data Booster can help see you through to the end of your billing month."
+            talk_and_txt: "If you've gone over your included value for this month (or you're about to), a one-off Talk and TXT Booster can help see you through to the end of your billing month."
+            international_calls:
+        select_addon: Please select an addon from the list
+        booster: "{{ category }} booster gives you more {{ category }} for this bill cycle only."
+        select_booster: Please select a booster from the list
+      review_product:
+        title: Review Add-on
+        selected: "Selected {{ category }} add-on"
+        features: "Key features"
+        minimum: Minumum monthly spend
+        upfront: Upfront cost
+        total: Total
+        t&c_label: "I agree to the terms and conditions"
+        faqs_title: Frequently asked questions
+        confirm: Buy now
+        choose_different: a different Add-on
+        cancel: Cancel
+        close: Close
+        order: The order will appear on your next invoice.
+        replace1: "You're about to replace your existing Add-on with "
+        replace2: If you continue
+        exit_fee1: ", your old Add-on will no longer be available and"
+        exit_fee2: " you'll be charged an exit fee of"
+        sub_section: You are buying the
+        tnc: "Terms and conditions"
+        tnc_accept: You must accept the terms and conditions in order to continue
+        for: for
+      purchased_product:
+        title: Processing order
+        summary_title: "Your new {{ category }} Add-on"
+        purchased_product: "You have bought the {{ purchased_product.short_description }} for {{ purchased_product.displayable_msisdn }}"
+        confirmation: "Thanks, your account will be updated in around 5 to 15 minutes. You'll receive a TXT confirming your Add-on"
+        next_steps_title: What happens next?
+        next_steps:
+          - "The order will appear on your next invoice"
+          - "Most usage is updated within 48 hours, but some activities including roaming and data usage may take longer not fully used."
+        back: Back to My Usage
+      current_addon_details:
+        current: "Your current Add-on is:"
+        tcs: "Terms & Conditions"
+        hide: Hide add-on features
+        show: Show add-on features
+        close: Close
+      error:
+        title: An error occurred
+        detail: You order cannot be processed at this time. You have not been charged but will have to try again later.
+        back_button: Back to My usage
+      cancel_addon:
+        title: Remove {{ category }} Add-on
+        sub_title: You are removing the
+        exit_fee1: "You're about to remove your existing Add-on. If you continue"
+        exit_fee_legacy: ", your old Add-on will no longer be available and"
+        exit_fee2: "you'll be charged an exit fee of "
+        paragraph:
+          - "For Vodafone Month to Month Add-on Products, the Minumum Monthly Spend is payable for each full monthly billing cycle in arrears."
+          - "Cancellation will take effect from the end of the month in which you cancel."
+        legacy: You will not be able to purchase this item again after cancelling
+        cancel: Cancel
+        confirm: Remove Add-on
+        for: for
+      cancelled_addon:
+        title: "Processing order"
+        header: "Thanks, your account will be updated in around 5 to 15 minutes."
+        next: "What happens next?"
+        back: Back to My Usage
+        removed_product: "You have removed your Add-on"
+      features_and_specifications_link:
+        view: View features and specifications
+        features: "Add-on features & specifications"
+        close: Close
+      pending:
+        title: My Add-ons
+        detail: Take advantage of our Add-ons and avoid exceeding your limit.
+        header: Please wait
+        paragraph_text: Your account will be updated in around 5 to 15 minutes.
+        back: Back to My Usage
+      common:
+        per_month: /month
+        one_off: /one-off
+      spinner:
+        title: Checking available Add-ons
+        message: "Please don't leave this page"
+    show:
+      title: Manage Add-ons
+
+  my_usages:
+    gauge:
+      used:
+        html: "<em>%{used}</em>&nbsp;of %{total}&nbsp;used"
+    day_bar:
+      day_bar_title: "%{days_remaining} days left"
+      day_bar_title_today: "Ends today"
+      day_bar_inclusions_refresh_date: "Inclusions refresh: %{inclusions_refresh_date}"
+      days:
+        zero: no days
+        one: day
+        other: days
+    my_inclusions:
+      my_inclusions_title: Inclusions
+      my_data_inclusions_title: Data Inclusions
+      summary: "%{inclusions}"
+      et_al: "+ others"
+      shared_inclusions_title: Shared Inclusions
+      non_shared_inclusions_title: My Inclusions
+
+  credit_cards:
+    title: Register or Manage credit card
+    manage_credit_card: Manage credit card
+    back_to_my_usage: Back to my usage
+    core_error_title: Something didn't go as planned
+    register_card:
+      title: Register or Manage credit card
+      intro: Saving a credit card will allow you to complete future recharges faster. You can link up to 5 Vodafone Prepaid services to this credit card.
+      add_card: Save card
+      terms_and_conditions: Terms & Conditions
+      agree_to_terms_and_conditions: I authorise Vodafone to charge my nominated credit card and have read and agreed to the terms and conditions.
+    show_card:
+      title: Register or Manage credit card
+      listing: Your credit card details
+      remove: Remove
+      are_you_sure_you_want_unlink_card: Are you sure you want to remove this card?
+      remove_explanation_just_me: "You will no longer be able to recharge using this credit card."
+      remove_explanation_single_ng: "By removing this card, you will unlink {{secondary_numbers[0].msisdn | phoneNumber }}. You can still use this credit card for one-off recharges."
+      remove_explanation_multiple_ng: "By removing this card, you will unlink {{ secondary_numbers.length }} services. You can still use this credit card for one-off recharges."
+      successfully_unlinked: "Your credit card details have been successfully removed."
+      card:
+        expiry: Exp. {{credit_card.card_expiry_month}}/{{credit_card.card_expiry_year}}
+      change:
+        change: Change
+        cancel: Cancel
+        replace_or_update: Change or update your existing credit card
+        update_card: Update card
+    create:
+      success: Your credit card has been saved and is ready to use.
+      error_occurred: There was a problem with your credit card details. Please contact your card provider.
+      security_error_occurred: There was a problem with your credit card details. Please contact your card provider.
+      errors:
+        account_already_linked: This credit card is already linked to a service. You’ll need to unlink it before you can add your own.
+        core_sys_binding: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        card_already_registered: This credit card is already linked to another account. You'll need to unlink your card in My Vodafone before you can add it to this account.
+        core_bus_generic: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        core_sys_generic: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        core_sys_internal: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        card_not_found: We can't seem to find your saved credit card details. Please check the details in your account and try again.
+        invalid_spend_band: It looks like your account needs some attention before you can recharge. Please call us on 1555 from your Vodafone mobile.
+        msisdn_not_found: Please check your number and try again. For more help, call us on 1555 from your Vodafone mobile.
+        not_primary_user: This option is only available to the primary account owner. To update your details, please sign into My Vodafone with this number.
+        core_sys_provider_comms: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        core_sys_provider_fault: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        cc_reg_error: We've had a minor technical glitch and haven't been able to process your request. Please try again in a few minutes or call us on 1511 to recharge over the phone.
+        msisdn_already_registered: This number is already linked to a credit card. You'll need to unlink it in My Vodafone before you can add this number to your own account.
+        secondary_associated: This number is already linked to a credit card. You'll need to unlink it in My Vodafone before you can add this number to your own account.
+        core_sys_timeout: We've had a minor technical glitch and haven't been able to process your request. Please try again in a few minutes or call us on 1511 to recharge over the phone.
+        account_status_error: It looks like your account needs some attention before you can update your details. For help, please call us on 1555 form your Vodafone mobile.
+        cc_invalid_token: We're having trouble confirming your details. Please try again, or use another payment method.
+        core_bus_val: We're having trouble confirming your details. Please try again, or use another payment method.
+        cc_invalid_card_data: It looks like there was a problem with your credit card info. Please check your card details or choose another payment option and try again.
+    destroy:
+      success: CARD UNLINKED
+      errors:
+        core_sys_binding: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        core_bus_generic: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        core_sys_generic: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        core_sys_internal: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        card_not_found: We can't seem to find your saved credit card details. Please check the details in your account and try again.
+        msisdn_not_found: Please check your number and try again. For more help, call us on 1555 from your Vodafone mobile.
+        not_primary_user: This option is only available to the primary account owner. To update your details, please sign into My Vodafone with this number.
+        core_sys_provider_comms: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        core_sys_provider_fault: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        core_sys_timeout: We've had a minor technical glitch and haven't been able to process your request. Please try again in a few minutes or call us on 1511 to recharge over the phone.
+        core_bus_val: We're having trouble confirming your details. Please try again, or use another payment method.
+        cc_invalid_card_data: It looks like there was a problem with your credit card info. Please check your card details or choose another payment option and try again.
+    update:
+      success: Credit card has been successfully updated
+      error_occurred: Credit card has not been successfully updated
+      security_error_occurred: There was a problem with your credit card details
+      errors:
+        core_sys_binding: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        card_already_registered: This credit card is already linked to another account. You'll need to unlink your card in My Vodafone before you can add it to this account.
+        core_bus_generic: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        core_sys_generic: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        core_sys_internal: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        card_not_found: We can't seem to find your saved credit card details. Please check the details in your account and try again.
+        invalid_spend_band: It looks like your account needs some attention before you can recharge. Please call us on 1555 from your Vodafone mobile.
+        msisdn_not_found: Please check your number and try again. For more help, call us on 1555 from your Vodafone mobile.
+        not_primary_user: This option is only available to the primary account owner. To update your details, please sign into My Vodafone with this number.
+        cc_invalid_expiry_date: It looks like there was a problem with your credit card info. Please check your card details or choose another payment option and try again.
+        core_sys_provider_comms: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        core_sys_provider_fault: We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile.
+        core_sys_timeout: We've had a minor technical glitch and haven't been able to process your request. Please try again in a few minutes or call us on 1511 to recharge over the phone.
+        account_status_error: It looks like your account needs some attention before you can update your details. For help, please call us on 1555 form your Vodafone mobile.
+        cc_invalid_card_data: It looks like there was a problem with your credit card info. Please check your card details or choose another payment option and try again.
+        cc_invalid_ccv: It looks like there was a problem with your credit card info. Please check your card details or choose another payment option and try again.
+        cc_invalid_number: It looks like there was a problem with your credit card info. Please check your card details or choose another payment option and try again.
+        core_bus_val: We're having trouble confirming your details. Please try again, or use another payment method.
+        cc_invalid_card_data: It looks like there was a problem with your credit card info. Please check your card details or choose another payment option and try again.
+    quick_links:
+      title: Quick links
+  vha_ui:
+    collapse:
+      view: View
+      hide: Hide
+  invoice:
+    invoice_date: "Billed on %{invoice_date}"
+    invoice_type: 'Billed usage'
+
+  secondary_users:
+    error:
+      generic: "We're having a few technical issues and are working to get our systems up and running again. Please try again later or call us on 1555 from your Vodafone mobile."
+      validation: "Validation failed"
+      validation_phone: "Invalid service number"
+      validation_already_registered: "This service is already linked to a credit card. You’ll need to unlink it before you can add your own."
+      validation_account_status: "Looks like this service isn’t linked to your saved credit card. Please enter a valid Vodafone prepaid service."
+      not_found: "Please check your number and try again. For more help, call us on 1555 from your Vodafone mobile."
+      no_credit_card: "No registered credit card found"
+      last_digits_invalid: "The last 4 digits entered don't match your saved card. Please try again."
+      card_not_found: We can't seem to find your saved credit card details. Please check the details in your account and try again.
+      msisdn_not_prepaid: We're having trouble verifying your number. Please check the number is a Vodafone Prepaid number and try again. For help, call us on 1555 from your Vodafone mobile.
+      msisdn_not_found: Please check your number and try again. For more help, call us on 1555 from your Vodafone mobile.
+      not_primary_user: This option is only available to the primary account owner. To update your details, please sign into My Vodafone with this number.
+      msisdn_already_registered: This number is already linked to a credit card. You'll need to unlink it in My Vodafone before you can add this number to your own account.
+      core_bus_val: We're having trouble confirming your details. Please try again, or use another payment method.
+      cc_invalid_card_data: It looks like there was a problem with your credit card info. Please check your card details or choose another payment option and try again.
+
+  subscription:
+    index:
+      title: Subscriptions
+      expiry_date_prefix: "Ends:"
+      no_subscription: You are not subscribed to any services
+      subscription_exist: You are currently subscribed to the following services
+      error:
+        retrieve_subscription: Unable to retrieve end date. Please try again later
+
+  bill_options:
+    page_title: Manage Billing Options
+    cancel: Cancel
+    save: Save changes
+    bill_presentation:
+      title: Bill presentation
+      detailed: Display all usage details
+      summary: Display only chargeable usage details outside of your plan
+    receive_my_bill:
+      title: Bill delivery
+      paperless: Paperless billing
+      parenthesis-text: (FREE - save $24 a year)
+      field_label: Email bill to
+      confirm_label: Confirm email address
+      current_status:
+        not_email: You are currently receiving paper bills. Go Paperless with email billing. It's easy, convenient and absolutely FREE!
+        not_email_link: Find out more
+        email: You are currently receiving email bills.
+        sub_email: Great! You are SAVING $24 a year.
+    update:
+      success: Success
+      message: Your details have been updated
+      usage_button: Return to my usage
+      billing_options_button: Billing Options
+    warning:
+      not_email: Once you save this setting you will no longer be able to receive paper bills.
+    bill_notification:
+      title: Bill notification
+      description: Receive an alert when your latest bill is ready to view.
+      txt: TXT me
+      email: Email me
+    thing_to_know:
+      title: Things you need to know
+      description: Charges are rounded up to the nearest cent inclusive of GST. This is a statement of payments received onto your account. The statement is not and in no way constitutes a tax invoice. Please do not pay. Account balance displayed is indicative only and may not include all charges.
+    error:
+      invalid_number: Invalid phone number
+      invalid_email: Invalid email address
+      no_notification: Please select one of the notification methods
+    help_and_support:
+      title: "Help & support"
+      change_bill_option_title: "Change billing option"
+      change_bill_option_link: "http://support.vodafone.com.au/articles/FAQ/How-to-change-your-billing-options"
+      turn_billing_itemisation_title: "Turn billing itemisation on and off"
+      turn_billing_itemisation_link: "http://support.vodafone.com.au/articles/FAQ/How-to-turn-billing-itemisation-on-and-off"
+      setup_email_bill_title: "Setup or update email bill"
+      setup_email_bill_link: "http://support.vodafone.com.au/articles/FAQ/How-to-set-up-email-bill-or-update-your-email-bill-address"
+  orpc:
+    current_plan_page:
+      curr_plan_text: "Your current plan:"
+    forbidden_page:
+      title: "You are here"
+      message: "The page you're heading to, however, isn't suitable for your account. Here's something to put you back on track:"
+    tnc_error_msg:
+      message: "You must accept the terms and conditions before changing your plan"  
+  weblock:
+    loading_message: The wheels are turning...
+    unavailable:
+      title: Block Data
+      message: Web Lock is unavailable
+    index:
+    sections:
+      account: 'Account'
+      service: 'Service'
+      payment: 'Payment'
+      title: Block Data
+      my_service:
+        heading: My Service
+      other_service:
+        heading: Other Services
+      button:
+        status: Status
+      service:
+        data_control: 'Access data control'
+    show:
+      title: Block Data
+      text:
+        data: Data
+        blocked: Data Blocked
+        active: Data Active
+      action:
+        save: Save
+        cancel: Cancel
+      update:
+        success_message: We've made the change to
+      my_usage_link: Back to My usage

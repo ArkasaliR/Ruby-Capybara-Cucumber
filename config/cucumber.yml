@@ -1,0 +1,22 @@
+# config/cucumber.yml
+##YAML Template
+---
+
+express_recharge: --tags @express --tags ~@wip --format 'pretty' --format 'html' --out tmp/cucumber.html
+myusage: --tags ~@prod --tags ~@wip --tags ~@alert --tags ~@expressrecharge --tags ~@ir features --format 'pretty' --format 'html' --out tmp/cucumber.html
+pay_bill: --tags @paybill --tags ~@wip --format 'pretty' --format 'html' --out tmp/cucumber.html
+alert: --tags ~@prod --tags ~@wip --tags ~@myusage --tags ~@expressrecharge --tags ~@ir features --format 'pretty' --format 'html' --out tmp/cucumber.html
+international_roaming: --tags @roaming --tags ~@wip features --format 'pretty' --format 'html' --out tmp/cucumber.html
+international_calling: --tags @idd --tags ~@wip features --format 'pretty' --format 'html' --out tmp/cucumber.html
+manage_account_details: --tags @mad --tags ~@wip features --format 'pretty' --format 'html' --out tmp/cucumber.html
+recharge: --tags @recharge --tags ~@wip --format 'pretty' --format 'html' --out tmp/cucumber.html
+recharge: --tags @recharge --tags ~@wip --format 'pretty' --format 'html' --out tmp/cucumber.html
+cvt: --tags @cvt --tags ~@wip --tags ~@uat features --format 'pretty' --format 'html' --out tmp/cucumber.html
+saucy: --tags @saucy --tags ~@wip --tags ~@uat features --format 'pretty' --format ParallelTests::Cucumber::FailuresLogger --out tmp/cucumber_failures.log
+account_settings: --tags @account_settings --tags ~@wip features --format 'pretty' --format 'html' --out tmp/cucumber.html
+prepaid_options: --tags @prepaid_options --tags ~@wip features --format 'pretty' --format 'html' --out tmp/cucumber.html
+navigation: --tags @nav --tags ~@wip features --format 'pretty' --format 'html' --out tmp/cucumber.html
+addons:  --tags @addons --tags ~@wip features --format 'pretty' --format 'html' --out tmp/cucumber.html
+all: --tags ~@wip features --format 'pretty' --format 'html' --out tmp/cucumber.html
+paypal: --tags @paypal --tags ~@wip --format 'pretty' --format 'html' --out tmp/cucumber.html
+auth_broker:  --tags @auth_broker --tags ~@wip features --format 'pretty' --format 'html' --out tmp/cucumber.html

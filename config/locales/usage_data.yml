@@ -1,0 +1,40 @@
+en:  
+  usage_test_data:
+    show:
+      no_usage: There was no usage on this day
+      light:
+        data:
+          title: Data
+          used: 83374.4 MB used 
+        voice:
+          title: Talk
+          used: 8 calls made
+          record: 9:00 am 5:57 min 61408105739 V2V
+        txt:
+          title: Text
+          used: 2 texts sent
+          record: 9:27 am 61408123456 PXT
+        roaming:
+          title: Roaming
+          used: roaming items
+          # record: 9:27 am 61408123456 PXT
+        other:
+          title: Other
+          used: 55 other items
+          record: 9:06 am VIN
+      heavy:
+        data:
+          title: Data
+          used: used
+        voice:
+          title: Talk
+          used: 9 calls made
+        txt:
+          title: Text
+          used: 2 texts sent
+        roaming:
+          title: Roaming
+          used: roaming items
+        other:
+          title: Other
+          used: 5 other items

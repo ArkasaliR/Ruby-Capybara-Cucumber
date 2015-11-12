@@ -1,0 +1,101 @@
+en:
+  my_usage:
+    error:
+      title: "Something didn't go to plan"
+      default: "There's been a technical mishap retrieving your details. Give it another go or call us on 1555 from your Vodafone mobile or 1300 650 410 from other phones."
+    show:
+      title: All usage
+      title_charged: All charges
+      no_usage: There’s nothing to see here
+      my_usage_link: Back to My Usage
+      data_usage_link: View all usage
+      show_more: Show More
+      bill_period:
+        title: Bill period
+      current_billing_period: "%{from} - %{to}"
+      current_billing_period_title: Current usage
+      unbilled_billing_period: "%{from} - %{to}"
+      unbilled_billing_period_title: Previous month's usage
+      loading: "Wheels are turning..."
+      national: Within Australia
+      international: Outside Australia
+      filter:
+        title: Filter
+        showing_results: 'Showing: '
+        for_period: for
+        with_charges_html: "with <em>extra charges</em>"
+        clear_filters: Clear filter
+        no_filter: 'all usage'
+        active_filter:
+          1: '{{filter.active_text[0]}}'
+          2: '{{filter.active_text[0]}} and {{filter.active_text[1]}}'
+          3: '{{filter.active_text[0]}}, {{filter.active_text[1]}} and {{filter.active_text[2]}}'
+          4: 'all usage'
+        usage_type: Usage Type
+        usage_filter:
+          button_title: Usage Filter
+          update_filter: Update Results
+      day:
+        data:
+          title: Data
+          used: 'used'
+        talk:
+          title: Talk
+          used:
+            one: '{} call made'
+            other: '{} calls made'
+        text:
+          title: Text
+          used:
+            one: '{} text sent'
+            other: '{} texts sent'
+        other:
+          title: Other
+          used:
+            one: '{} other item'
+            other: '{} other items'
+        roaming_data:
+          title: Roaming data
+          used: 'used'
+        roaming_talk:
+          title: Roaming talk
+          used:
+            one: '{} call made'
+            other: '{} calls made'
+        roaming_text:
+          title: Roaming text
+          used:
+            one: '{} text sent'
+            other: '{} texts sent'
+        roaming_other:
+          title: Roaming other
+          used:
+            one: '{} other item'
+            other: '{} other items'
+      errors:
+        error_title: Error
+        default: An error occurred
+      processing:
+        title: Checking your usage...
+        message: "Please don't leave this page"
+      postpay:
+        no_more_records: That’s the lot for this bill period
+        extra_charges_occurred: Extra charges have occurred during this bill period. Details below.
+        excess_charges: "Excess <br /> charges"
+        ex_GST: "exc. GST"
+        no_filter_results: Nothing matches your filter options
+        show_extra_charges: "Show charged items"
+        show_all: "Show all usage"
+      prepay:
+        no_more_records: That’s the lot for this period
+        no_filter_results: Nothing matches your filter options within {{periodFrom()}} - {{periodTo()}}
+      disclaimer:
+        headline: Things you need to know
+        text_html: "Most usage is updated within 18 hours, but if you’re roaming overseas it may take up to 72 hours. Charges do not include GST and are rounded to the nearest cent. Any discounts or charges that may apply when your bill is issued are not included. This is a summary of your usage, and does not constitute a tax invoice."
+    links:
+      title: Quick links
+      my_data_usage: View my data usage
+      recharge_now: Recharge now
+      bills_and_payments: View and pay bills
+      addons: View and buy add-ons
+      alerts: Manage Vodafone alerts
